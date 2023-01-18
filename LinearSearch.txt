@@ -1,0 +1,36 @@
+https://www.programiz.com/dsa/linear-search
+https://www.javatpoint.com/linear-search
+https://www.geeksforgeeks.org/linear-search/
+
+Kunal notes : https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/blob/main/lectures/09-linear%20search/Handwritten%20notes%20on%20Linear%20search.pdf
+
+a[] = {1,2,3,4,5,6,...3000};
+
+
+
+//Sample code
+
+public class LinearSearch {
+    public static void main(String[] args) {
+//        length = 5
+        int number[] = {1,2,3,6,5};
+//              Index = 0,1,2,3,4 = 5
+        int find = 6;
+        int ans = linearSearch(number, find);
+        System.out.println(ans);
+    }
+    static int linearSearch(int number[], int find ){
+
+        if(number.length == 0){ // 5 == 0 false
+            return -1;
+        }
+
+        for (int index = 0; index<number.length; index++){ // 5 < 5
+            int element = number[index]; // 3 = 4
+            if(element == find) { // 4 == 4 = true
+                return index;
+            }
+        }
+        return -1;
+    }
+}
