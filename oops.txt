@@ -40,3 +40,18 @@ Polymorphism -
 Why And When To Use "Inheritance" and "Polymorphism"?
 
 - It is useful for code reusability: reuse attributes and methods of an existing class when you create a new class.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Abstraction -
+
+1. Its shows only essential details
+2. The abstract keyword is a non-access modifier
+
+Why And When To Use Abstract Classes and Methods?
+
+To achieve security - hide certain details and only show the important details of an object.
+
+Note: Abstraction can also be achieved with Interfaces.
+
+---------------------------------------------------------------------------------------------------------------------------------------
