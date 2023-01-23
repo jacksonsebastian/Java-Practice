@@ -1,6 +1,6 @@
-package Poly;
+package Polymorphism;
 
-public class poly {
+public class polymorphismm {
     public static void main(String[] args) {
         student std = new student();
         idCard id = new idCard();
