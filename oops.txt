@@ -1,0 +1,42 @@
+Acsess Modifiers :
+
+Modifiers - Description
+
+public - The code can be accessible in any class
+
+Private - The code can be only accessible with the declared class
+
+default - The code can be accessible within the same package.
+
+Protected - The code can be accessible within the same package and subclasses in any outside of the package.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Encapsulation - https://www.scientecheasy.com/wp-content/uploads/2018/06/encapsulation-in-java.png
+
+-> Grouping data with methods in a class.
+-> Hiding Data: Prevent direct access from outside
+
+1. By using Access Modifier
+2. Declare a class variables, attribute as private modifier.
+3. Define public getter and setter methods to be access and update the value of a private variable
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Inheritance -
+
+1. It allows access to use data & methods from another.
+2. A way of organize a set of interelated classses.
+
+Super Class - The class whose feature are inherited is know as super class
+Sub class - The class that inherits another is know as sub class (extends) 
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Polymorphism - 
+
+1. Abitility of methods to take morethan one form / same method have many forms
+2. Both Super class and sub class have same methods
+
+Why And When To Use "Inheritance" and "Polymorphism"?
+
+- It is useful for code reusability: reuse attributes and methods of an existing class when you create a new class.
