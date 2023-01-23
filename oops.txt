@@ -55,3 +55,41 @@ To achieve security - hide certain details and only show the important details o
 Note: Abstraction can also be achieved with Interfaces.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+Interface -
+
+1. A collection of methods with no implementations is called interface.
+2. A class can be implements more than one interfaces,
+3. So the "implements" Keyword is followed by comma seperated list of interfaces.
+
+Interface methods are by default abstract and public
+Interface attributes are by default public, static and final
+
+
+
+
+ class Main
+{
+	public static void main(String[] args) {
+		student obj = new student();
+		obj.name();
+		obj.rollno();
+	}
+}
+
+interface stdRegister {
+    public void name();
+    public void rollno();
+}
+
+class student implements stdRegister {
+    public void name(){
+        // String name = "Arthi";
+        System.out.println("Arthi");
+    }
+    
+    public void name(){
+        // int rollno = 12;
+        System.out.println("11");
+    }
+}
